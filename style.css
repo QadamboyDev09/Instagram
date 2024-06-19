@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.opshiy{
+  
+  display: flex;
+  flex-direction: column;
+}
+.rigth{
+  border: 1px solid #d9d9d9;
+  padding: 30px 20px;
+  position: relative;
+  bottom: 280px;
+}
+.left{
+  border: 1px solid #d9d9d9;
+  padding: 20px 20px;
+  position: relative;
+  bottom: 270px;
+  gap: 10px;
+}
+.left a{
+  color: #2eabff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.insta{
+  font-family: "Lucida Handwriting", cursive;
+  padding: 0px 0px 30px 0px;
+}
+.instagram-pages{
+  margin-top: 150px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  
+}
+.phone{
+  text-align: center;
+  align-items: center;
+ position: relative;
+ bottom: 530px;
+ left: 125px;
+  animation-name: phon;
+  animation-duration: 17s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+
+}
+.phone2{
+  width: 380px;
+  height: 550px;
+}
+
+@keyframes phon {
+  0%{
+    background-image: url(./homeinsta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 470px;
+ 
+  }
+  25%{
+    background-image: url(./massageinsta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 470px;
+  
+  }
+  50%{
+    background-image: url(./liveinsta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 470px;
+    
+  }
+  75%{
+    background-image: url(./liveinsta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(48, 4, 107);
+    width: 210px;
+    height: 470px;
+  }
+  100%{
+    background-image: url(./liveinsta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 470px;
+
+  }
+}
+.form{
+  display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.form input{
+  width:259px;
+  height: 30px;
+  background-color: #FAFAFA;
+  border: 1px solid #ececec ;
+  border-radius: 5px;
+  padding: 9px 0px 7px 8px;
+  font-size: 10px;
+  outline: none;
+}
+.form button{
+  width:259px;
+  height: 30px;
+  background-color: #2eabff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  outline: none;
+}
+.form button:hover{
+  background-color: #0095FB;
+  cursor: pointer;
+}
+.ili{
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+ padding-top: 20px;
+}
+.ili hr{
+  width: 90px;
+}
+.ili h2{
+  color: #b7b7b7;
+  font-size: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding-top: 10px;
+  
+}
+.links a{
+  color: #385185;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.links i{
+  font-size: 20px;
+}
+.acc2{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.acc2{
+  color: #385185;
+  font-size: 11px
+  
+}
+.block2{
+  display: flex;
+  font-size: 14px;
+}
+.usta{
+  position: relative;
+  bottom: 255px;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+.appoplay{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  position: relative;
+  bottom: 240px;
+}
+.appoplay img{
+  width: 100px;
+
+}
+@media screen and (max-width:715px) {
+  .rigth-insta{
+    display: none;
+  }
+  .opshiy{
+    margin-top: 290px;
+    min-width: auto;
+  }
+  
+}
+@media screen and (max-width:450px) {
+
+  .rigth{
+   
+  border: none;
+  margin-top: -170px;
+  }
+  .left{
+    border: none;
+    flex-wrap: wrap;
+  }
+  
+}
